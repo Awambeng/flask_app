@@ -8,7 +8,7 @@ app.py which is the application itself.
 create a folder then move inside 
 use the command python3 -m venv venv to create a virtual environment
 use the command source venv/bin/activate to activate the virtual environment
-type the command pip install requirements.txt to install all libraries and dependencies
+type the command pip install -r requirements.txt to install all libraries and dependencies
 
 # Procedure to run the app
 type the command gunicorn wsgi:app to run the app on the gunicorn server
